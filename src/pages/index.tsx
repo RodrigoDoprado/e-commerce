@@ -1,5 +1,5 @@
 import { Routes, Route, BrowserRouter } from 'react-router-dom'
-import Home from './Home'
+import Home from './HomePage'
 
 const Pages = () => {
   return (

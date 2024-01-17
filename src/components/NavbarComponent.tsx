@@ -5,17 +5,17 @@ import DarkMode from "./DarkMode";
 const Menu = [
   {
     id: 1,
-    name: "Home",
-    link: "/#",
+    name: "Inicio",
+    link: "/#home",
   },
   {
     id: 2,
-    name: "Services",
+    name: "Produtos",
     link: "/#services",
   },
   {
     id: 3,
-    name: "About",
+    name: "Sobre nós",
     link: "/#about",
   },
 ];
@@ -26,7 +26,7 @@ function NavbarComponent(){
         <div className="container py-3 sm:py-0">
           <div className="flex justify-between items-center">
             <div>
-              <a href="#" className="font-bold text-2xl sm:text-3xl flex gap-2">
+              <a href="/" className="font-bold text-2xl sm:text-3xl flex gap-2">
                 <img src={Logo} alt="Logo" className="w-10" />
                 Foodie
               </a>
