@@ -5,7 +5,7 @@ import lightPng from "../assets/website/light-mode-button.png";
 function DarkModeComponent(){
   const [theme, setTheme] = useState(
     localStorage.getItem("theme") ? localStorage.getItem("theme") : "light"
-  );
+  ); 
   const element = document.documentElement;
 
   useEffect(() => {
@@ -18,8 +18,8 @@ function DarkModeComponent(){
     }
   }, [theme]);
   return (
-    <>
-      <div className="relative ">
+    <div className="hidden sm:flex">
+      <div className="relative">
         <img
           // src={theme === "dark" ? darkPng : lightPng}
           src={lightPng}
@@ -40,7 +40,7 @@ function DarkModeComponent(){
           className="w-12 cursor-pointer drop-shadow-[1px_1px_2px_rgba(0,0,0,0.5)] duration-300 "
         />
       </div>
-    </>
+    </div>
   );
 }
 

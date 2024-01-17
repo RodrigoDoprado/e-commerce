@@ -1,6 +1,6 @@
-import Img1 from "../assets/biryani.png";
+// import Img1 from "../assets/biryani.png";
 import Img2 from "../assets/biryani2.png";
-// import Img3 from "../assets/biryani4.png";
+import Img3 from "../assets/biryani4.png";
 // import StarRatings from "react-star-ratings";
 const ServicesData = [
   {
@@ -26,21 +26,21 @@ const ServicesData = [
   },
   {
     id: 4,
-    img: Img1,
+    img: Img3,
     name: "Biryani",
     description:
       "Lorem ipsum dolor sit amet ipsum dolor sit ametipsum dolor sit amet ipsum dolor sit amet.",
   },
   {
     id: 5,
-    img: Img1,
+    img: Img3,
     name: "Chiken kari",
     description:
       "Lorem ipsum dolor sit amet ipsum dolor sit ametipsum dolor sit amet ipsum dolor sit amet",
   },
   {
     id: 6,
-    img: Img1,
+    img: Img3,
     name: "Cold Cofee",
     description:
       "Lorem ipsum dolor sit amet ipsum dolor sit ametipsum dolor sit amet ipsum dolor sit amet",
@@ -93,7 +93,7 @@ function ServicesComponent(){
                             name="rating"
                           /> */}
                         </div>
-                        <h1 className="text-xl font-bold mt-5">{service.name}</h1>
+                        <h1 className="text-xl font-bold">{service.name}</h1>
                         <p className="text-gray-500 group-hover:text-white duration-high text-sm line-clamp-2">
                           {service.description}
                         </p>
