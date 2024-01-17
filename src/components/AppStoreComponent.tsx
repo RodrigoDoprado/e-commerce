@@ -5,6 +5,7 @@ import Gif from "../assets/mobile_bike.gif";
 function AppStoreComponent(){
   return (
     <>
+     <span id="appStore"></span>
       <div className="bg-gray-100 dark:bg-gray-800 py-14">
         <div className="container">
           <div className="grid sm:grid-cols-2 grid-cols-1 items-center gap-4">

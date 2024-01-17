@@ -15,6 +15,7 @@ function BannerComponent(){
 //   };
   return (
     <>
+    <span id="about"></span>
       <div className="min-h-[550px]">
         <div className="min-h-[550px] flex justify-center items-center backdrop-blur-xl py-12 sm:py-0 ">
           <div

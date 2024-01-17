@@ -18,6 +18,11 @@ const Menu = [
     name: "Sobre nós",
     link: "/#about",
   },
+  {
+    id: 4,
+    name: "App",
+    link: "/#appStore",
+  },
 ];
 function NavbarComponent(){
   return (

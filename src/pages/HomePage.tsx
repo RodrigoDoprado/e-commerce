@@ -4,6 +4,7 @@ import Hero from "../components/HeroComponent"
 import Services from "../components/ServicesComponent"
 import Banner from "../components/BannerComponent"
 import AppStore from "../components/AppStoreComponent"
+import Testimonial from "../components/TestimonialComponent"
 import Footer from "../components/FooterComponent"
 
 function HomePage(){
@@ -16,6 +17,7 @@ function HomePage(){
             <Services/>
             <Banner/>
             <AppStore/>
+            <Testimonial/>
             <Footer/>
         </>
     )
