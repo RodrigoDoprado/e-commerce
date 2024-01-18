@@ -72,7 +72,7 @@ function HeroComponent(){
                   data-aos-once="true"
                   src={imageId}
                   alt="biryani img"
-                  className="w-[300px] sm:w-[450px] sm:scale-125  mx-auto spin "
+                  className="w-[300px] sm:w-[450px] sm:scale-125  mx-auto spin"
                 />
               </div>
               <div className="flex lg:flex-col lg:top-1/2 lg:-translate-y-1/2 lg:py-2 justify-center gap-4 absolute bottom-[0px] lg:-right-10 bg-white/30 rounded-full">
@@ -92,7 +92,7 @@ function HeroComponent(){
                       );
                     }}
                     alt="biryani img"
-                    className="max-w-[80px] h-[80px] object-contain inline-block hover:scale-105 duration-200"
+                    className="max-w-[80px] h-[80px] object-contain inline-block hover:scale-105 duration-200 cursor-pointer"
                   />
                 ))}
               </div>

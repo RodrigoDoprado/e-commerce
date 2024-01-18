@@ -11,7 +11,7 @@ import footerLogo from "../assets/food-logo.png";
 function FooterComponent(){
   return (
     <div className="bg-gray-100 dark:bg-gray-950">
-      <section className="max-w-[1400px] mx-auto">
+      <section className="max-w-[1300px] mx-auto">
         <div className=" grid md:grid-cols-3">
           <div className=" py-8 px-4 ">
             <h1 className="sm:text-3xl text-xl font-bold sm:text-left text-justify mb-3 flex items-center gap-3">

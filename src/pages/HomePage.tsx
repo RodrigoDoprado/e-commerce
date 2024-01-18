@@ -1,4 +1,4 @@
-import { Helmet } from "react-helmet"
+// import { Helmet } from "react-helmet"
 import Navbar from "../components/NavbarComponent"
 import Hero from "../components/HeroComponent"
 import Services from "../components/ServicesComponent"
@@ -10,7 +10,7 @@ import Footer from "../components/FooterComponent"
 function HomePage(){
     return(
         <>
-            <Helmet><title>Home</title></Helmet>
+            {/* <Helmet><title>Home</title></Helmet> */}
             <span id="home"></span>
             <Navbar/>
             <Hero/>
