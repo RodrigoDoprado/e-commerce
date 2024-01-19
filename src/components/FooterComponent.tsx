@@ -10,7 +10,7 @@ import footerLogo from "../assets/food-logo.png";
 
 function FooterComponent(){
   return (
-    <div className="bg-gray-100 dark:bg-gray-950">
+    <div className="bg-gray-100 dark:bg-gray-950 dark:text-white">
       <section className="max-w-[1300px] mx-auto">
         <div className=" grid md:grid-cols-3">
           <div className=" py-8 px-4 ">

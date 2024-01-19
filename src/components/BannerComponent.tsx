@@ -17,7 +17,7 @@ function BannerComponent(){
     <>
     <span id="about"></span>
       <div className="min-h-[550px]">
-        <div className="min-h-[550px] flex justify-center items-center backdrop-blur-xl py-12 sm:py-0 ">
+        <div className="min-h-[550px] flex justify-center items-center backdrop-blur-xl py-12 sm:py-0 dark:bg-gray-950 dark:text-white">
           <div
             data-aos="slide-up"
             data-aos-duration="300"

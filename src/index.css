@@ -2,9 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
-  font-family:Verdana, Geneva, Tahoma, sans-serif
-}
 
 @layer utilities {
     .duration-high {

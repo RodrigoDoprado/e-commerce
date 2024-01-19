@@ -51,7 +51,7 @@ function ServicesComponent(){
     return(
         <>
           <span id="services"></span>
-          <div className="py-10">
+          <div className="py-10 dark:bg-gray-950 dark:text-white">
             <div className="container">
               <div className="text-center mb-20 max-w-[400px] mx-auto">
                 <p className="text-sm bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary ">

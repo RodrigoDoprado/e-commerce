@@ -9,7 +9,7 @@ function DarkModeComponent(){
   const element = document.documentElement;
 
   useEffect(() => {
-    if (theme === "dark") {
+    if (theme === "dark") { 
       element.classList.add("dark");
       localStorage.setItem("theme", "dark");
     } else {
@@ -18,7 +18,7 @@ function DarkModeComponent(){
     }
   }, [theme]);
   return (
-    <div className="hidden lg:flex">
+    <div className="">
       <div className="relative">
         <img
           // src={theme === "dark" ? darkPng : lightPng}
@@ -27,9 +27,9 @@ function DarkModeComponent(){
           onClick={() =>
             setTheme((data) => (data === "dark" ? "light" : "dark"))
           }
-          className={`w-12 cursor-pointer drop-shadow-[1px_1px_1px_rgba(0,0,0,0.1)] transition-all duration-300 absolute right-0 z-10  ${
-            theme === "dark" ? "opacity-0" : "opacity-100"
-          } `}
+          className={`w-12 cursor-pointer drop-shadow-[1px_1px_1px_rgba(0,0,0,0.1)] transition-all duration-300 absolute right-0 z-10  
+            ${theme === "dark" ? "opacity-0" : "opacity-100"} 
+          `}
         />
         <img
           src={darkPng}
