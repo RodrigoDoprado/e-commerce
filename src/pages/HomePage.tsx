@@ -1,6 +1,6 @@
 // import { Helmet } from "react-helmet"
 import Navbar from "../components/NavbarComponent"
-import NavbarMobil from "../components/navbarMobilComponent"
+import NavbarMobil from "../components/NavbarMobilComponent"
 import Hero from "../components/HeroComponent"
 import Services from "../components/ServicesComponent"
 import Banner from "../components/BannerComponent"
